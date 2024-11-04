@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>csClass02</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div id="category-bar-container" class="category-bar">
+        
+    </div>
+    <div class="search-container">
+        <input type="text" id="search-box" placeholder="type Here category name...">
+        <button onclick="handleSearch()" id="search-btn">Search</button>
+    </div>
+
+    <div id="news-container" class="news-container">
+        <div class="singleNews">
+            <div class="news-photo">
+                <img src="./img/baiden.jpg" alt="">
+            </div>
+            <div class="news-info">
+                <div class="news-header">
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, nobis?</h4>
+                    <p class="news-badge">
+                        Good <sup>
+                            <h6 class="news-rating">4.5</h6>
+                        </sup>
+                    </p>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias enim, modi ex esse tenetur sunt
+                    eius possimus molestiae beatae natus.
+                </p>
+                <div class="news-footer">
+                    <div class="author">
+                        <div class="">
+                            <img src="./img/author.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <h6>MD DAVID</h6>
+                            <p>Date: 12-12-2004</p>
+                        </div>
+                    </div>
+                    <div class="Views author">
+                        <img class="view-img"
+                            src="https://uxwing.com/wp-content/themes/uxwing/download/health-sickness-organs/view-icon.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="./app.js"></script>
 </body>
+
 </html>
