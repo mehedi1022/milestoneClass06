@@ -1,0 +1,23 @@
+.details-btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: gray;
+    color: white;
+}
+.news-footer{
+    display: flex;
+    align-items: center;
+}
+.singleNews{
+    width: 80%;
+    margin: auto;
+}
+.loading-spiner img{
+    width: 25%;
+    margin: auto;
+}
+.loading-spiner{
+    text-align: center;
+    padding: 50px;
+    display: none;
+}
